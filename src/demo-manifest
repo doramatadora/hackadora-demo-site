@@ -17,5 +17,5 @@ sessions: true
 
 ## What's happening here?
 
-This demo uses a [TensorFlow Lite](https://www.tensorflow.org/lite/guide/hosted_model) efficient convolutional neural network for mobile vision, MobileNet — variant [mobilenet_v1_0.50_224](https://arxiv.org/pdf/1704.04861.pdf), with a top-1 prediction accuracy of **63.2%** (top-5: 84.9%) — for image classification. Inference is handled entirely by a **single, originless** Compute@Edge service written in Rust 🦀. The code lives at [github.com/doramatadora/hackadora](https://github.com/doramatadora/hackadora).
+This demo uses a [TensorFlow Lite](https://www.tensorflow.org/lite/guide/hosted_model) efficient convolutional neural network for mobile vision. We're using a pre-trained model for image classification - [MobileNet v2_1.4_224](https://arxiv.org/abs/1801.04381) - with a top-1 prediction accuracy of **74.9%** (top-5: 92.5%). Inference is handled entirely by a **single, originless** Compute@Edge service written in Rust 🦀. The code lives at [github.com/doramatadora/hackadora](https://github.com/doramatadora/hackadora).
 
