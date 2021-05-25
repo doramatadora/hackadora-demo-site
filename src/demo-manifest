@@ -1,0 +1,21 @@
+---
+schemaVersion: 1
+title: Inference at the edge, using TensorFlow
+image:
+  href: /images/screenshot.png
+  alt: Airport departure board
+description: |
+    Inference at the edge, using TensorFlow or 
+    compiled Neural Network Exchange Format (NNEF)
+editUrl: https://github.com/doramatadora/hackadora/edit/main/.well-known/fastly/demo-manifest
+views:
+  endUser:
+    mode: frame
+    href: /
+sessions: true
+---
+
+## What's happening here?
+
+This demo uses a [TensorFlow Lite](https://www.tensorflow.org/lite/guide/hosted_model) efficient convolutional neural network for mobile vision, MobileNet — variant [mobilenet_v1_0.50_224](https://arxiv.org/pdf/1704.04861.pdf), with a top-1 prediction accuracy of **63.2%** (top-5: 84.9%) — for image classification. Inference is handled entirely by a **single, originless** Compute@Edge service written in Rust 🦀. The code lives at [github.com/doramatadora/hackadora](https://github.com/doramatadora/hackadora).
+
