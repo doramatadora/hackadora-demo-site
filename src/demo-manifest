@@ -4,16 +4,21 @@ id: edgeml
 title: Machine learning (ML) inference
 image:
   href: /screenshot.png
-  alt: Airport departure board
+  alt: Machine learning inference demo
 description: |
-    Apply deep learning at the edge to make predictions against previously unseen data. We classify images using state-of-the-art machine learning models compiled to WebAssembly. This demo was created to push the boundaries of the platform and inspire new ideas!
+    Apply deep learning at the edge to make predictions against previously unseen data. Classify images using state-of-the-art machine learning models compiled to WebAssembly. 
 editUrl: https://github.com/doramatadora/hackadora-demo-site/edit/main/src/demo-manifest
 views:
   endUser:
     mode: frame
     href: /
+  behindTheScenes:
+    mode: sse
+    href: https://log-bin-dot-rd---product.uc.r.appspot.com/edgeml
 sessions: true
 ---
+
+This demo was created to push the boundaries of the platform and inspire new ideas!
 
 ## What's happening here?
 
