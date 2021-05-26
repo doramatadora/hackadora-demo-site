@@ -1,4 +1,4 @@
-version = 8
+version = 13
 name = "hackadora-demo-site"
 description = "HACK2020 - Inference at the edge - Demo site"
 authors = ["dmilitaru@fastly.com"]
