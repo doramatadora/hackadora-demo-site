@@ -28,6 +28,6 @@ Deep learning is a subfield of ML that emulates the way the human brain learns t
 
 ## What's happening here?
 
-This demo runs on a [TensorFlow Lite](https://www.tensorflow.org/lite/guide/hosted_model) efficient convolutional neural network for mobile vision. We're using a pre-trained model for image classification - [MobileNet v2_1.4_224](https://arxiv.org/abs/1801.04381) - with a top-1 prediction accuracy of **74.9%** (top-5: 92.5%). Inference is handled entirely by a **single, originless** Compute@Edge service written in Rust 🦀 and compiled to WebAssembly. 
+This demo runs on a [TensorFlow Lite](https://www.tensorflow.org/lite/guide/hosted_models) efficient convolutional neural network for mobile vision. We're using a pre-trained model for image classification - [MobileNet v2_1.4_224](https://arxiv.org/abs/1801.04381) - with a top-1 prediction accuracy of **74.9%** (top-5: 92.5%). Inference is handled entirely by a **single, originless** Compute@Edge service written in Rust 🦀 and compiled to WebAssembly. 
 
 The code lives at [github.com/doramatadora/edgeml](https://github.com/doramatadora/edgeml).
