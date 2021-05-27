@@ -1,6 +1,9 @@
-version = 14
-name = "hackadora-demo-site"
-description = "HACK2020 - Inference at the edge - Demo site"
+# This file describes a Fastly Compute@Edge package. To learn more visit:
+# https://developer.fastly.com/reference/fastly-toml/
+
 authors = ["dmilitaru@fastly.com"]
+description = "HACK2020 - Inference at the edge - Demo site"
 language = "rust"
+manifest_version = 1
+name = "hackadora-demo-site"
 service_id = "6ILhoImRVXVGJeF62P274b"

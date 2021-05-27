@@ -12,9 +12,6 @@ views:
   endUser:
     mode: frame
     href: /
-  behindTheScenes:
-    mode: sse
-    href: https://log-bin-dot-rd---product.uc.r.appspot.com/edgeml
 sessions: true
 ---
 
@@ -22,7 +19,7 @@ This demo was created to push the boundaries of the platform and inspire new ide
 
 ## What's happening here?
 
-Inference is where capabilities learned during deep learning training are put to work. 
+Machine learning (ML_) is an application of artificial intelligence that includes algorithms that parse data, learn from that data, and then apply what they’ve learned to make informed decisions. Deep learning is a subfield of ML. A deep learning model uses an algorithm that can determine if its prediction is accurate or not, through its own neural network. Large datasets are used to "train" for prediction. Inference is where capabilities learned during deep learning training are put to work. 
 
 This demo uses a [TensorFlow Lite](https://www.tensorflow.org/lite/guide/hosted_model) efficient convolutional neural network for mobile vision. We're using a pre-trained model for image classification - [MobileNet v2_1.4_224](https://arxiv.org/abs/1801.04381) - with a top-1 prediction accuracy of **74.9%** (top-5: 92.5%). Inference is handled entirely by a **single, originless** Compute@Edge service written in Rust 🦀. The code lives at [github.com/doramatadora/hackadora](https://github.com/doramatadora/hackadora).
 
