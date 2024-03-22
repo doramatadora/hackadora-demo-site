@@ -14,7 +14,7 @@ views:
     href: /
   behindTheScenes:
     mode: sse
-    href: https://log-bin-dot-rd---product.uc.r.appspot.com/edgeml-demo
+    href: https://log-bin.fastly.dev/edgeml-demo
 sessions: true
 ---
 
